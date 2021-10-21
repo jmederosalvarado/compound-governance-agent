@@ -7,7 +7,7 @@ import {
   Network,
   TransactionEvent,
 } from "forta-agent";
-import agent from ".";
+import agent from "./agent";
 import { COMPOUND_GOVERNANCE_ADDRESS, SIGS, TOPICS } from "./utils";
 import keccak256 from "keccak256";
 
